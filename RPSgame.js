@@ -17,6 +17,8 @@ const player2 = {
     hand: () => getHand()
 };
 
+
+// this originally returned both hands plus the winner but I trimmed it down to streamline troubleshooting
 function playRound(player1, player2)
 {
     let p1hand = player1.hand();
