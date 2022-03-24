@@ -13,7 +13,7 @@ const users = [
 const userJose = users.find(user => user.firstName == "Jose");
 console.log(userJose);
 
-// filer premium
+// filter premium
 const premiumMembers = users.filter(user => user.isPremiumMember);
 console.log(premiumMembers);
 
