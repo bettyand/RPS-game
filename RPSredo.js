@@ -62,7 +62,7 @@ function playGame(player1, player2, playUntil)
 {
     let p1wins = 0;
     let p2wins = 0;
-    roundNumber = 0;
+    let roundNumber = 0;
 
     console.log(`In the red corner, ${player1.name}! In the blue corner, ${player2.name}! On the count of 3... FIGHT!`);
 
